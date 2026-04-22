@@ -2,7 +2,7 @@ function calcsalario() {
 
     let sbruto = document.getElementById("sbruto").value;
 
-    if (sbruto <= 2508.50) {
+    if (sbruto <= 1621.18) {
         let vdesconto = 7.5 / 100 * sbruto;
         let sliquido = sbruto - vdesconto;
         document.getElementById("vdesconto").value = vdesconto.toFixed(2);
